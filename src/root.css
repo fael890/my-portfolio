@@ -1,6 +1,7 @@
 @import url(components/Header.css);
 @import url(components/Banner.css);
 @import url(components/Divider.css);
+@import url(components/SectionTitle.css);
 
 @import "tailwindcss";
 

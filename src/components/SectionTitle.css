@@ -1,0 +1,9 @@
+.section-title-container{
+    background-image: url(../assets/section-title.svg);
+    height: 95px;
+    width: 331px;
+}
+
+.section-title-container h2{
+    color: var(--color-white);
+}
