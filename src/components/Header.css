@@ -1,0 +1,15 @@
+.header-container{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding-left: 36px;
+    padding-right: 36px;
+    height: 80px;
+    width: 100vw;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+}
+
+
