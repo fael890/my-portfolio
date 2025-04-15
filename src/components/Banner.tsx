@@ -1,5 +1,4 @@
 import './Banner.css';
-import characterImage from '../assets/banner_character_sizecut.png'
 
 export default function Banner() {
     return (
@@ -17,7 +16,7 @@ export default function Banner() {
                 </p>
             </div>
             <div className='col-span-6 justify-items-end content-end'>
-                <img src={characterImage} alt="" />
+                <img src="/public/banner_character_sizecut.png" alt="" />
             </div>  
         </div>
     );

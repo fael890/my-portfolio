@@ -2,7 +2,7 @@
     width: 100vw;
     height: 40px;
     background-color: var(--primary-color);
-    background-image: url(../assets/divider.png);
+    background-image: url(/public/divider.png);
     background-position: 0 0;
     animation: moverFaixa 30s linear infinite;
 }

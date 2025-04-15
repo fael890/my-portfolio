@@ -1,5 +1,5 @@
 .section-title-container{
-    background-image: url(../assets/section-title.svg);
+    background-image: url(/public/section-title.svg);
     height: 95px;
     width: 331px;
 }

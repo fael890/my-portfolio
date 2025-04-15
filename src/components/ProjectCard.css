@@ -1,5 +1,5 @@
 .project-card-container{
-    background-image: url(../assets/project-card-bg.svg);
+    background-image: url(/public/project-card-bg.svg);
     width: 610px;
     height: 350px;
     padding: 30px 40px 30px 40px;
