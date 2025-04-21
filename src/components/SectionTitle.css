@@ -1,7 +1,10 @@
-.section-title-container{
+.section-title-container {
     background-image: url(/public/section-title.svg);
+    background-repeat: no-repeat;
     height: 95px;
-    width: 331px;
+    width: 100%;
+    max-width: 331px;
+    /* margin: 0 auto; */
 }
 
 .section-title-container h2{
