@@ -1,5 +1,5 @@
-import { ProjectCardProps } from "../types/ProjectCard";
-import TechStack from './TechStack'
+import { ProjectCardProps } from "../../types/ProjectCard";
+import { TechStack } from '../TechStack/TechStack'
 
 
 const ProjectCard = ({ title, description, projectLink, techStackProps, imageName }: ProjectCardProps) => {

@@ -1,13 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './root.css'
-import './main.css'
-import Header from './components/Header'
-import Banner from './components/Banner'
-import Divider from './components/Divider'
-import SectionTitle from './components/SectionTitle'
-import { ProjectCard } from './components'
-import TechStack from './components/TechStack'
+import { Banner, Divider, Header, ProjectCard, SectionTitle } from './components'
 import projectCardData from './data/projectCard.json'
 
 createRoot(document.getElementById('root')!).render(

@@ -1,9 +1,9 @@
-@import url(components/Header.css);
-@import url(components/Banner.css);
-@import url(components/Divider.css);
-@import url(components/SectionTitle.css);
-@import url(components/ProjectCard.css);
-@import url(components/TechStack.css);
+@import url(components/Header/Header.css);
+@import url(components/Banner/Banner.css);
+@import url(components/Divider/Divider.css);
+@import url(components/SectionTitle/SectionTitle.css);
+@import url(components/ProjectCard/ProjectCard.css);
+@import url(components/TechStack/TechStack.css);
 
 @import "tailwindcss";
 

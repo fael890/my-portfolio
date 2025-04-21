@@ -1,7 +1,9 @@
 import './Divider.css';
 
-export default function Divider() {
+const Divider = () => {
     return (
         <div className="divider-container"></div>
     );
 }
+
+export { Divider };

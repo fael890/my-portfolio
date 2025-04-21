@@ -1,6 +1,6 @@
 import './Banner.css';
 
-export default function Banner() {
+const Banner = () => {
     return (
         <div className='banner-container grid grid-cols-12'>
             <div className='col-span-6 justify-items-start content-center'>
@@ -21,3 +21,5 @@ export default function Banner() {
         </div>
     );
 }
+
+export { Banner };

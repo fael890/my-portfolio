@@ -2,7 +2,7 @@ import './Header.css';
 
 import { Icon } from "@iconify/react";
 
-export default function Header() {
+const Header = () => {
     return (
         <header className='header-container heading-font3 flex justify-between items-center'>
             <div className='flex-1 flex justify-start'>
@@ -23,3 +23,5 @@ export default function Header() {
         </header>
     );
 }
+
+export { Header };
