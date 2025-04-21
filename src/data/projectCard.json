@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Resource Tracker",
+        "description": "O Resource Tracker é um projeto desenvolvido para monitorar processos do computador, oferecendo um sistema de ranking que exibe os processos que mais consumiram recursos enquanto o sistema esteve em execução. Futuramente pretendo adicionar uma IA para sugerir melhorias de hardware para o usuário, com base nos resultados do monitoramento",
+        "projectLink": "https://github.com/fael890/resource-tracker",
+        "techStackProps": {
+            "iconsSize": 30,
+            "iconsNames": [
+                "simple-icons:spring", 
+                "simple-icons:springboot", 
+                "simple-icons:hibernate", 
+                "simple-icons:h2database",  
+                "simple-icons:nextdotjs",
+                "simple-icons:css",
+                "simple-icons:typescript",
+                "simple-icons:javascript",
+                "simple-icons:react",
+                "simple-icons:reactbootstrap",
+                "simple-icons:electron"
+            ]
+        },
+        "imageName": "resource-tracker-image.png"
+    },
+    {
+        "title": "Sistema de Provas do IFSP",
+        "description": "Desenvolvido em PHP, o sistema tem como principal objetivo gerenciar provas e suas notas, além de gerar simulados do ENADE. O sistema conta com cadastro de alunos, dashboard com visão geral de notas e provas para analizar o desempenho dos alunos, entre outras funcionalidades. Oferecendo aos alunos da instituição uma ferramenta eficiente de preparação.",
+        "projectLink": "https://sites.bra.ifsp.edu.br/simulado-enade-ads/",
+        "techStackProps": {
+            "iconsSize": 30,
+            "iconsNames": [
+                "simple-icons:php",
+                "simple-icons:mysql",
+                "simple-icons:css",
+                "simple-icons:bootstrap"
+            ]
+        },
+        "imageName": "sys-provas.png"
+    },
+    {
+        "title": "Sistema para Feira BRAGANTEC",
+        "description": "Os participantes da BRAGANTEC precisavam de uma maneira mais acessível de enviar seus projetos e receberem suas avaliações. Para isso, foi feito esse sistema em PHP para gerenciar os projetos, as inscrições e as avaliações da Feira de Ciência e Tecnologia",
+        "projectLink": "https://feirabragantec.com.br/sias",
+        "techStackProps": {
+            "iconsSize": 30,
+            "iconsNames": [
+                "simple-icons:php",
+                "simple-icons:mysql",
+                "simple-icons:css",
+                "simple-icons:bootstrap"
+            ]
+        },
+        "imageName": "bragantec.png"
+    },
+    {
+        "title": "Projeto de Lista de Jogos",
+        "description": "Este projeto foi desenvolvido em um intensivão do canal DevSuperior, no qual construí uma API utilizando padrões de projeto e boas práticas com Java Spring.",
+        "projectLink": "https://github.com/fael890/dslist",
+        "techStackProps": {
+            "iconsSize": 30,
+            "iconsNames": [
+                "simple-icons:spring",
+                "simple-icons:springboot",
+                "lineicons:java",
+                "simple-icons:h2database",
+                "simple-icons:postgresql",
+                "simple-icons:docker",
+                "simple-icons:postman",
+                "simple-icons:swagger"
+            ]
+        },
+        "imageName": "dslist.png"
+    },
+    {
+        "title": "Paula Chocolat",
+        "description": "Este projeto foi feito para uma loja de doces fictícia. O sistema conta com o cadastro de projetos, criação de orçamento, além da exibição dos produtos da loja.",
+        "projectLink": "https://github.com/fael890/paulaChocolat-back",
+        "techStackProps": {
+            "iconsSize": 30,
+            "iconsNames": [
+                "simple-icons:nodedotjs",
+                "simple-icons:sqlite",
+                "simple-icons:vuedotjs",
+                "simple-icons:css",
+                "simple-icons:postman",
+                "simple-icons:swagger"
+            ]
+        },
+        "imageName": "paula-chocolat.png"
+    }
+]

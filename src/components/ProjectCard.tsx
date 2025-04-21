@@ -2,21 +2,36 @@ import { ProjectCardProps } from "../types/ProjectCard";
 import TechStack from './TechStack'
 
 
-export default function ProjectCard({ title, description, techStackProps, imageName }: ProjectCardProps){
+const ProjectCard = ({ title, description, projectLink, techStackProps, imageName }: ProjectCardProps) => {
+    function accessOnClick(projectLink: string) {
+        window.open(projectLink, '_blank');
+    }
+
     return (
-        <div className="project-card-container grid grid-cols-12 gap-[20px] content-center">
-            <div className='col-span-6 grid gap-y-[8px] justify-center ' >
-                <h4 className="heading-font4">
-                    { title }
-                </h4>
-                <p className="body-font2">
-                    { description }
-                </p>
-                <TechStack iconsSize={techStackProps.iconsSize} iconsNames={techStackProps.iconsNames}/>
+        <div className="project-card-container grid grid-cols-4" onClick={() => accessOnClick(projectLink)}>
+            <div className="col-span-2 sm:p-5 md:p-10 lg:p-15">
+                <div className="flex flex-col gap-y-4 h-full justify-between">
+                    <div>
+                        <h4 className="heading-font3">
+                            {title}
+                        </h4>
+                        <p className="body-font1 text-justify">
+                            {description}
+                        </p>
+                    </div>
+                    <div>
+                        <TechStack
+                            iconsSize={techStackProps.iconsSize}
+                            iconsNames={techStackProps.iconsNames}
+                        />
+                    </div>
+                </div>
             </div>
-            <div className='col-span-6 flex items-center justify-center'>
-                <img className='project-image' src={`/public/${imageName}`} alt="" />
+            <div className="mask-image flex col-span-2">
+                <img className='project-image w-full' src={`/${imageName}`} alt="" />
             </div>
         </div>
     );
-} 
+}
+
+export { ProjectCard };

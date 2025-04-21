@@ -23,14 +23,11 @@
   --body2-font-size: 14px;
 }
 
-* {
+body {
   /* reset */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body{
   background-color: var(--light-bg-color);
 }
 

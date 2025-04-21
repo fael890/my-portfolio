@@ -1,21 +1,15 @@
 .project-card-container{
-    background-image: url(/public/project-card-bg.svg);
-    width: 610px;
-    height: 350px;
-    padding: 30px 40px 30px 40px;
+    border: solid 2.5px var(--primary-color) ;
+    border-radius: 5px;
+    overflow: hidden;
 }
-
-.project-card-container h4{
-    color: var(--dark-bg-color);
-}
-
-.project-card-container p{
-    color: var(--dark-bg-color);
-    text-align: justify;
+.project-card-container:hover{
+    box-shadow: 1px 1px 10px;
+    cursor: pointer;
 }
 
 .project-image{
-    width: 190px;
-    height: 190px;
+    box-shadow: 1px 1px 3px;
     object-fit: cover;
+    /* mask-image: linear-gradient(on left, black 50%, transparent 100%); */
 }
