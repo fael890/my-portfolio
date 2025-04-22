@@ -10,3 +10,7 @@
 .tech-title{
     color: var(--white-color);
 }
+
+.tech-ability-container:hover {
+    cursor: pointer;
+}
