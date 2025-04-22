@@ -5,3 +5,4 @@ export { ProjectCard } from "./ProjectCard/ProjectCard";
 export { SectionTitle } from "./SectionTitle/SectionTitle";
 export { TechStack } from "./TechStack/TechStack";
 export { TechAbility } from "./TechAbility/TechAbility";
+export { Footer } from "./Footer/Footer";

@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './root.css'
 import './main.css'
-import { Banner, Divider, Header, ProjectCard, SectionTitle, TechAbility } from './components'
+import { Banner, Divider, Header, ProjectCard, SectionTitle, TechAbility, Footer } from './components'
 import projectCardData from './data/projectCard.json'
 import techAbilities from './data/techAbility.json'
 
@@ -43,6 +43,8 @@ createRoot(document.getElementById('root')!).render(
         ))}
       </div>
     </div>
+
+    <Footer />
 
   </StrictMode>,
 )
