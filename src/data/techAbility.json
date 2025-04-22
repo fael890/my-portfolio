@@ -1,0 +1,47 @@
+[
+    {
+        "iconName": "simple-icons:spring",
+        "iconLabel": "Spring",
+        "techDocLink": ""
+    },
+    {
+        "iconName": "lineicons:java",
+        "iconLabel": "Java",
+        "techDocLink": ""
+    },
+    {
+        "iconName": "simple-icons:nodedotjs",
+        "iconLabel": "NodeJs",
+        "techDocLink": ""
+    },
+    {
+        "iconName": "simple-icons:mysql",
+        "iconLabel": "MySQL",
+        "techDocLink": ""
+    },
+    {
+        "iconName": "simple-icons:postgresql",
+        "iconLabel": "PostgreSQL",
+        "techDocLink": ""
+    },
+    {
+        "iconName": "simple-icons:javascript",
+        "iconLabel": "JavaScript",
+        "techDocLink": ""
+    },
+    {
+        "iconName": "simple-icons:react",
+        "iconLabel": "React",
+        "techDocLink": ""
+    },
+    {
+        "iconName": "simple-icons:php",
+        "iconLabel": "PHP",
+        "techDocLink": ""
+    },
+    {
+        "iconName": "simple-icons:docker",
+        "iconLabel": "Docker",
+        "techDocLink": ""
+    }
+]

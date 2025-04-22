@@ -4,6 +4,7 @@
 @import url(components/SectionTitle/SectionTitle.css);
 @import url(components/ProjectCard/ProjectCard.css);
 @import url(components/TechStack/TechStack.css);
+@import url(components/TechAbility/TechAbility.css);
 
 @import "tailwindcss";
 

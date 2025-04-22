@@ -1,0 +1,12 @@
+.icon-ability{
+    color: var(--dark-bg-color);
+}
+
+.icon-container{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.tech-title{
+    color: var(--white-color);
+}
