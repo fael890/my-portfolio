@@ -7,8 +7,8 @@ const TechAbility = ({ iconName, iconLabel, techDocLink } : TechAbilityProps) =>
     }
 
     return (
-        <div className="tech-ability-container flex w-fit flex-col p-2 items-center" onClick={() => accessOnClick(techDocLink)}>
-            <div className="icon-container p-2">
+        <div className="tech-ability-container flex w-fit flex-col p-2 items-center">
+            <div className="icon-container p-2" onClick={() => accessOnClick(techDocLink)}>
                 <Icon className="icon-ability" icon={iconName} width="90" height="90"/>
             </div>
             <h3 className="tech-title heading-font4">{iconLabel}</h3>

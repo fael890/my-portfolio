@@ -11,6 +11,9 @@
     color: var(--white-color);
 }
 
-.tech-ability-container:hover {
+/* .tech-ability-container:hover {
+    cursor: pointer;
+} */
+.icon-container:hover {
     cursor: pointer;
 }
