@@ -2,13 +2,18 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './root.css'
 import './main.css'
-import { Banner, Divider, Header, ProjectCard, SectionTitle, TechAbility, Footer } from './components'
+import { Banner, Divider, Header, ProjectCard, SectionTitle, TechAbility, Footer, CurriculumButton } from './components'
 import projectCardData from './data/projectCard.json'
 import techAbilities from './data/techAbility.json'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Header />
+    <div className='hidden sm1:block'>
+      <Header/>
+    </div>
+
+    <CurriculumButton/>
+
     <Banner />
     <Divider />
 
@@ -31,7 +36,7 @@ createRoot(document.getElementById('root')!).render(
       <div className='flex-1 justify-items-center lg:mx-[80px] pb-[60px]'>
         <SectionTitle title='Habilidades' />
       </div>
-      <div className='grid justify-items-center gap-10 grid-cols-6 lg:mx-[80px] flex-wrap'>
+      <div className='flex justify-items-center gap-10 grid-cols-6 lg:mx-[80px] flex-wrap'>
         {techAbilities.map(data => (
           <div>
             <TechAbility
@@ -45,6 +50,10 @@ createRoot(document.getElementById('root')!).render(
     </div>
 
     <Footer />
+
+    <div className='fixed bottom-0 w-full sm1:hidden'>
+      <Header/>
+    </div>
 
   </StrictMode>,
 )
