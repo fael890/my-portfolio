@@ -1,21 +1,5 @@
-.banner-container{
-    background-color: var(--dark-bg-color);
-    width: 100vw;
-    height: 750px;
-    padding-right: 80px;
-    padding-left: 80px;
-}
-
-.banner-container h1{
-    color: var(--primary-color);
-}
-
-.banner-container p{
-    color: var(--white-color);
-    max-width: 520px;
-    text-align: justify;
-}
-
-.banner-container img{
-    max-width: 750px;
-}
+/* @media screen and (max-width: 1180px){
+    .banner-container {
+        grid-column: 1;
+    }
+} */

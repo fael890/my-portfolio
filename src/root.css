@@ -8,6 +8,13 @@
 
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-md1: 80rem;
+  --breakpoint-custom-md2: 1280px;
+  --breakpoint-custom-lg1: 1440px;
+  --breakpoint-custom-lg2: 1920px;
+}
+
 :root{
   --primary-color: #E5315C;
   --secondary-color: #A395BA;
