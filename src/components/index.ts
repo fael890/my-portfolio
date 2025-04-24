@@ -6,3 +6,4 @@ export { SectionTitle } from "./SectionTitle/SectionTitle";
 export { TechStack } from "./TechStack/TechStack";
 export { TechAbility } from "./TechAbility/TechAbility";
 export { Footer } from "./Footer/Footer";
+export { CurriculumButton } from "./CurriculumButton/CurriculumButton";
