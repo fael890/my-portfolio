@@ -2,46 +2,46 @@
     {
         "iconName": "simple-icons:spring",
         "iconLabel": "Spring",
-        "techDocLink": ""
+        "techDocLink": "https://docs.spring.io/spring-framework/reference/index.html"
     },
     {
         "iconName": "lineicons:java",
         "iconLabel": "Java",
-        "techDocLink": ""
+        "techDocLink": "https://docs.oracle.com/en/java/javase/21/docs/api/index.html"
     },
     {
         "iconName": "simple-icons:nodedotjs",
         "iconLabel": "NodeJs",
-        "techDocLink": ""
+        "techDocLink": "https://nodejs.org/docs/latest/api/"
     },
     {
         "iconName": "simple-icons:mysql",
         "iconLabel": "MySQL",
-        "techDocLink": ""
+        "techDocLink": "https://dev.mysql.com/doc/"
     },
     {
         "iconName": "simple-icons:postgresql",
         "iconLabel": "PostgreSQL",
-        "techDocLink": ""
+        "techDocLink": "https://www.postgresql.org/docs/"
     },
     {
         "iconName": "simple-icons:javascript",
         "iconLabel": "JavaScript",
-        "techDocLink": ""
+        "techDocLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
         "iconName": "simple-icons:react",
         "iconLabel": "React",
-        "techDocLink": ""
+        "techDocLink": "https://react.dev/learn"
     },
     {
         "iconName": "simple-icons:php",
         "iconLabel": "PHP",
-        "techDocLink": ""
+        "techDocLink": "https://www.php.net/manual/en/"
     },
     {
         "iconName": "simple-icons:docker",
         "iconLabel": "Docker",
-        "techDocLink": ""
+        "techDocLink": "https://docs.docker.com"
     }
 ]
