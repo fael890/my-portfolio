@@ -1,20 +1,16 @@
-@import url(components/Header/Header.css);
 @import url(components/Divider/Divider.css);
-@import url(components/SectionTitle/SectionTitle.css);
-@import url(components/ProjectCard/ProjectCard.css);
-@import url(components/TechStack/TechStack.css);
-@import url(components/TechAbility/TechAbility.css);
 
 @import "tailwindcss";
 
 @theme {
   /* --breakpoint-sm1: 55rem; */
-  --breakpoint-sm1: 40rem;
-  --breakpoint-md1: 80rem;
-  --breakpoint-md2: 90rem;
+  --breakpoint-sm1: 640px;
+  --breakpoint-sm2: 750px;
+  --breakpoint-md1: 1280px;
+  --breakpoint-md2: 1440px;
 }
 
-:root{
+:root {
   --primary-color: #E5315C;
   --secondary-color: #A395BA;
   --light-bg-color: #F6F4F9;
@@ -42,35 +38,32 @@ body {
   background-color: var(--light-bg-color);
 }
 
-@layer components{
-  
-  .heading-font1{
-    font-size: var(--heading1-font-size);
-    font-family: 'Oxanium';
-  }
-  
-  .heading-font2{
-    font-size: var(--heading2-font-size);
-    font-family: 'Oxanium';
-  }
-  
-  .heading-font3{
-    font-size: var(--heading3-font-size);
-    font-family: 'Oxanium';
-  }
-  
-  .heading-font4{
-    font-size: var(--heading4-font-size);
-    font-family: 'Oxanium';
-  }
-  
-  .body-font1{
-    font-size: var(--body1-font-size);
-    font-family: 'Inter';
-  }
-  
-  .body-font2{
-    font-size: var(--body2-font-size);
-    font-family: 'Inter';
-  }
+.heading-font1 {
+  font-size: var(--heading1-font-size);
+  font-family: 'Oxanium';
+}
+
+.heading-font2 {
+  font-size: var(--heading2-font-size);
+  font-family: 'Oxanium';
+}
+
+.heading-font3 {
+  font-size: var(--heading3-font-size);
+  font-family: 'Oxanium';
+}
+
+.heading-font4 {
+  font-size: var(--heading4-font-size);
+  font-family: 'Oxanium';
+}
+
+.body-font1 {
+  font-size: var(--body1-font-size);
+  font-family: 'Inter';
+}
+
+.body-font2 {
+  font-size: var(--body2-font-size);
+  font-family: 'Inter';
 }
