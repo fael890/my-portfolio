@@ -1,13 +1,9 @@
 .divider-container{
-    width: 100vw;
-    height: 40px;
-    background-color: var(--primary-color);
-    background-image: url(/public/divider.png);
     background-position: 0 0;
-    animation: moverFaixa 30s linear infinite;
+    animation: moveDivider 30s linear infinite;
 }
 
-@keyframes moverFaixa {
+@keyframes moveDivider {
     from {
       background-position: 0 0;
     }
