@@ -7,8 +7,8 @@ const Banner = () => {
             '
         >
             <div className='
-                    col-span-1 justify-items-center text-center
-                    md1:justify-items-start md1:content-center md1:text-justify
+                    col-span-1 flex flex-col items-center text-center
+                    md1:justify-start md1:content-center md1:text-justify
                 '
             >   
                 <h1 className="text-(length:--heading3-font-size) sm1:text-(length:--heading1-font-size) font-(family-name:--heading-family) text-(--primary-color) max-w-[700px]">
@@ -24,8 +24,9 @@ const Banner = () => {
                 </p>
             </div>
             <div className='
-                    col-span-1 justify-items-center
-                    md1:justify-items-end md1:content-end
+                    col-span-1 flex justify-center justify-items-center
+                    md1:justify-end md1:justify-items-end md1:content-end
+                    text-white
                 '
             >
                 <img className="w-[400px] md1:max-w-[750px] md1:w-[500px]" src="/my-portfolio/banner_character_sizecut.png" alt="" />

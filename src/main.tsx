@@ -17,7 +17,7 @@ createRoot(document.getElementById('root')!).render(
     <Banner />
     <Divider />
 
-    <div className='flex-1 px-[20px] py-[30px] sm1:px-[40px] sm1:py-[30px] md1:px-[80px] md1:py-[40px] justify-items-center'>
+    <div className='flex flex-1 px-[20px] py-[30px] sm1:px-[40px] sm1:py-[30px] md1:px-[80px] md1:py-[40px] justify-items-center justify-center'>
       <SectionTitle title='Projetos' />
     </div>
     <div className='
@@ -41,7 +41,7 @@ createRoot(document.getElementById('root')!).render(
     </div>
 
     <div className='bg-(--dark-bg-color) mt-[30px] md1:mt-[40px] px-[20px] py-[30px] sm1:px-[40px] sm1:py-[30px] md1:px-[80px] md1:py-[40px]'>
-      <div className='flex-1 justify-items-center pb-[30px] sm1:pb-[30px] md1:pb-[40px]'>
+      <div className='flex flex-1 justify-items-center justify-center pb-[30px] sm1:pb-[30px] md1:pb-[40px]'>
         <SectionTitle title='Habilidades' />
       </div>
       <div className='grid max-[400px]:grid-cols-2 grid-cols-3 sm1:grid-cols-5 md1:grid-cols-6 justify-items-center gap-5 sm1:gap-10 md1:gap-20'>
