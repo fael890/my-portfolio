@@ -52,7 +52,7 @@ Error generating stack: `+e.message+`
                 md1:pt-[150px] md1:px-[80px]\r
             `,children:[j.jsxs("div",{className:`\r
                     col-span-1 flex flex-col items-center text-center\r
-                    md1:justify-start md1:content-center md1:text-justify\r
+                    md1:justify-start md1:justify-start md1:items-start md1:text-justify\r
                 `,children:[j.jsx("h1",{className:"text-(length:--heading3-font-size) sm1:text-(length:--heading1-font-size) font-(family-name:--heading-family) text-(--primary-color) max-w-[700px]",children:"Desenvolvedor Fullstack"}),j.jsx("p",{className:"text-(length:--body1-font-size) font-(family-name:--body-family) text-(--white-color) max-w-[700px]",children:"Meu nome é Rafael Capodeferro, sou desenvolvedor Fullstack. O que mais me encanta na área de tecnologia é a possibilidade de propor soluções que resolvam problemas de empresas e pessoas. Para isso, estou sempre disposto a aprender e me adaptar rapidamente a novas tecnologias e metodologias, buscando atender da melhor forma às necessidades de cada projeto."})]}),j.jsx("div",{className:`\r
                     col-span-1 flex justify-center justify-items-center\r
                     md1:justify-end md1:justify-items-end md1:content-end\r
