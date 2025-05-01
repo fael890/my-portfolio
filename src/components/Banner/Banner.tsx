@@ -28,7 +28,7 @@ const Banner = () => {
                     md1:justify-items-end md1:content-end
                 '
             >
-                <img className="w-[400px] md1:max-w-[750px] md1:w-[500px]" src="./my-portfolio/banner_character_sizecut.png" alt="" />
+                <img className="w-[400px] md1:max-w-[750px] md1:w-[500px]" src="/my-portfolio/banner_character_sizecut.png" alt="" />
             </div>
         </div>
     );

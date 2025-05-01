@@ -28,7 +28,7 @@ const ProjectCard = ({ title, description, projectLink, techStackProps, imageNam
                         shadow-[1px_1px_3px] object-cover h-[230px] w-full
                         sm1:h-full sm2:h-[300px] md1:h-[300px] md2:h-full
                     ' 
-                    src={`./my-portfolio/${imageName}`} alt="" />
+                    src={`/my-portfolio/${imageName}`} alt="" />
             </div>
             <div className="
                     justify-between flex flex-col h-full
