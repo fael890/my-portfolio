@@ -8,7 +8,7 @@ const Banner = () => {
         >
             <div className='
                     col-span-1 flex flex-col items-center text-center
-                    md1:justify-start md1:content-center md1:text-justify
+                    md1:justify-start md1:justify-start md1:items-start md1:text-justify
                 '
             >   
                 <h1 className="text-(length:--heading3-font-size) sm1:text-(length:--heading1-font-size) font-(family-name:--heading-family) text-(--primary-color) max-w-[700px]">
