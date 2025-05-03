@@ -31,7 +31,7 @@ const Header = () => {
                     </button>
                 </div>
                 <div className='flex-1 flex justify-end hidden sm1:flex'>
-                    <a href='https://drive.google.com/file/d/1ImurOLZt0HKimFqNy3xCLZWa3KVvU9NZ/view?usp=drive_link' target='_blank' className='flex gap-x-2 hidden sm1:flex'>
+                    <a href='https://drive.google.com/file/d/1JcAbWt17YcnN6uOdy0ecuITtZu_7SNE1/view?usp=drive_link' target='_blank' className='flex gap-x-2 hidden sm1:flex'>
                         <h3 className="max-[650px]:text-(length:--heading4-font-size)">Meu Currículo</h3>
                     </a>
                 </div>
