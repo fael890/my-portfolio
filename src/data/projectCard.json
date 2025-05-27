@@ -73,7 +73,7 @@
     },
     {
         "title": "Paula Chocolat",
-        "description": "Este projeto foi feito para uma loja de doces fictícia. O sistema conta com o cadastro de projetos, criação de orçamento, além da exibição dos produtos da loja.",
+        "description": "Este projeto foi feito para uma loja de doces fictícia. O sistema conta com o cadastro de produtos, orçamentos e usuários. Existe a divisão entre super usuários e usuários comuns no sistema, no qual, o super usuário pode realizar o CRUD completo dos produtos e o usuário comum pode visualizar produtos e fazer orçamentos.",
         "projectLink": "https://github.com/fael890/paulaChocolat-back",
         "techStackProps": {
             "iconsSize": 30,
